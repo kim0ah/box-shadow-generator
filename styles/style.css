@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: tomato;
+    margin-top: 50px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.shadow-generation label {
+    display: block;
+}
+
+.shadow-generation input {
+    margin-bottom: 25px;
+    width: 70%;
+}
